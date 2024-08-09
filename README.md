@@ -22,6 +22,12 @@ LLM-Powered-Reddit-Posts-Filter is an tool that I developed that uses Large Lang
 - FastAPI
 - SQLite
 
+## 📊 Performance
+
+Adding a reasoning step to the LLM's decision-making process significantly improved accuracy. For GPT models, this step led to 100% accuracy, and for LLaMA, it reduced false positives from 21 to 9. check the images below for more detailed metrics:
+
+![Comparison of False Positives in LLMs](data.png)
+
 ## 📋 Prerequisites
 
 - Python 3.8+
@@ -61,10 +67,6 @@ LLM-Powered-Reddit-Posts-Filter is an tool that I developed that uses Large Lang
    ```
 
 2. Open your browser and navigate to `http://localhost:8000` to access the web interface.
-
-## 📊 Performance
-
-Adding a reasoning step to the LLM's decision-making process significantly improved accuracy. Detailed performance metrics will be shared in future. the gist is that just asking LLM to provide a reason for its choice before making a decision increases accuracy.
 
 ## 🤝 Contributing
 
