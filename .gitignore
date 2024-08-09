@@ -1,0 +1,8 @@
+__pycache__/
+venv/
+.vscode/
+.idea/
+*.db
+*.log
+.env
+test_reddit_monitor.py
